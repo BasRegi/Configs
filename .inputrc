@@ -1,3 +1,11 @@
+# Sets the completions to be listed immediately 
+# Instead of ringing the bell, 
+# When the completing word has more than one possible completion
 set show-all-if-ambiguous on
+
+# Sets auto completion to ignore cases
 set completion-ignore-case On
+
+# Binds the tab key to menu-complete
+# Which iterates through the possible completions
 "\C-i": menu-complete
